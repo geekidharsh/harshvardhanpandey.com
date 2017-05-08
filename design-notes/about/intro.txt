@@ -1,0 +1,10 @@
+Who is this Jedi anyway?
+
+Hi! I am Harsh and yes I am the you're looking for. My appetite for computers and tech goes back as far as 11 years. I was 5 while my dad was publishing his PhD thesis when I first had my hands on a computer. It seemed like magic.
+
+
+I have been coding for a while but  visualizing how people engage with technologies on different levels right computing subnet masks and static routing tables on a piece of paper to implementing it on cisco packet tracer, designing e-r model schema, HDFS and Big Data, learning trees and hash tables, modular to OOP approach, designing websites 100% pure without using any cms tool. Not the fastest runner you may know but I talk computers. Things I'm up to So early this year, I started working as an Engineer with MilliporeSigma. I implement a variety of APIs to accommodate needs of the Data Science and digital marketing team, automate data pulls / scraping. Write shell jobs, sql queries too. I have worked as a Web developer for 2 years in the past. Well that being said... I have explored a variety of computer science skills and concept in this long journey, and I have figured out that I love end user interaction process the most. I love understanding how a user interacts to a component in an application, and how can it be improvised. I am passionate about minimalistic, intuitive design patterns and would like to focus more on UI and Interaction design engineering in the future. I am an active member of Microsoft NERD and Boston CSS.  Also... I code/learn coding, design vector arts and logos when at home and take pictures when outside. I have been working on side projects on UI and Front End understanding responsive web design, progressive enhancements, graceful degradation, progressive web apps, advance html and css motion and transformation techniques.
+
+I love technology! I have come across a new thing in tech everyday since I was 12. Perhaps, there's just so much to learn. I try.
+
+Whoa! that felt like forever. y u no write less!  
