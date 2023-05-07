@@ -35,7 +35,7 @@ added images,revised summary, resume, photos, brownlittlefish
     <body>
         <section id="sidebar">
             <div class="inner">
-                <h1>Hello</h1>
+                <h1>Projects</h1>
                 <nav>
                     <ul>
                         <li><a href="#to-do-list">To do list </a></li>
@@ -48,8 +48,16 @@ added images,revised summary, resume, photos, brownlittlefish
         </section>
         <div id="wrapper">
             <!-- Intro -->
-					<section id="to-do-list" class="wrapper style1 fullscreen fade-up">
+					<section id="to-do-list" class="wrapper style1 fullscreen fade-down">
 						<div class="inner">
+                            <ul class="menu">
+                                <li><input type="text" placeholder="add item"> </li>
+                                <li><input type="text" placeholder="add item"> </li>
+                                <li><input type="text" placeholder="add item"> </li>
+                                <br>
+                                <br> <button class="inner" onclick="saveToDoList()">Save</button>
+
+                            </ul>
                         </div></section>
         </div>
 
@@ -68,7 +76,35 @@ added images,revised summary, resume, photos, brownlittlefish
 			<script src="../assets/js/skel.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+            <script src="../assets/js/main.js"></script>
+            <script>
+                function saveToDoList() {
+                  // Retrieve the <ul> element containing the to-do list items
+                  const toDoList = document.querySelector('.menu');
+              
+                  // Retrieve the <li> elements within the <ul> element
+                  const toDoItems = toDoList.querySelectorAll('li');
+              
+                  // Create an empty array to store the to-do list items
+                  const itemsArray = [];
+              
+                  // Loop through each <li> element and extract the text content
+                  toDoItems.forEach((item) => {
+                    const itemText = item.querySelector('input').value;
+                    itemsArray.push(itemText);
+                  });
+              
+                  // Convert the array to a string (if needed) or use any desired storage method
+                  const itemsString = JSON.stringify(itemsArray);
+              
+                  // Store the to-do list items in local storage
+                  localStorage.setItem('toDoItems', itemsString);
+              
+                  // Provide feedback or perform any desired actions upon successful save
+                  console.log('To-do list saved!');
+                }
+              </script>
+              
 
 	</body>
 </html>
